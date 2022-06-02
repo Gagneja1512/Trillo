@@ -176,3 +176,48 @@
     padding: 2.5rem;
     color: var(--color-grey-light-4);
 }
+
+.gallery{
+    display: flex;
+
+    &__photo{
+        width: 100%;
+        display: block;
+    }
+}
+
+.overview{
+
+    display: flex;
+    &__heading{
+
+    }
+
+    &__stars{
+        margin-right: auto;
+        background-color: orangered;
+    }
+
+    &__icon-star,
+    &__icon-location{
+        width: 1.75rem ;
+        height: 1.75rem;
+        fill: var(--color-primary);
+    }
+
+    &__location{
+        
+    }
+
+    &__rating{
+
+    }
+
+    &__rating-count{
+
+    }
+
+    &__rating-average{
+
+    }
+}
